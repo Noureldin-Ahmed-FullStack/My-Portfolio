@@ -21,9 +21,14 @@
     --links : #1436f0;
     
   }
+  #cvBtn:hover{
+    font-weight: 900;
+  }
   .MyOrangeBg{
     /* background-color: #e58c12; */
     background-image: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    outline: none;
+    border: none;
   }
   a {
     /* CSS properties for all anchor elements */
@@ -218,8 +223,8 @@ body{
     min-height: 220px;
     margin: 10px 0;
     border-radius: 1rem;
+    
     background-image: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    /* background-color: #d8d8d8; */
 }
 
 .service-box a {
