@@ -1,6 +1,6 @@
 {
-  "short_name": "VetRo",
-  "name": "VetRo",
+  "short_name": "My Portfolio",
+  "name": "My Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#1ABC9C",
-  "background_color": "#1ABC9C"
+  "theme_color": "#e58c12",
+  "background_color": "#e58c12"
 }
