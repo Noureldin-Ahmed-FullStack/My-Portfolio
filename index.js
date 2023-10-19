@@ -1,13 +1,14 @@
-if ("serviceWorker" in navigator) {
+// if ("serviceWorker" in navigator) {
 
-    navigator.serviceWorker.register("sw.js").then(registration => {
+//     navigator.serviceWorker.register("sw.js").then(registration => {
     
-    console.log("SW Registered!"); console.log(registration);
+//     console.log("SW Registered!"); console.log(registration);
     
-    }).catch(error =>{
+//     }).catch(error =>{
     
-    console.log("SW Registration Failed!");
+//     console.log("SW Registration Failed!");
     
-    console.log(error);
-});
-}
+//     console.log(error);
+// });
+// }
+serviceWorkerRegistration.register();
